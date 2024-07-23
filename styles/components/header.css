@@ -4,6 +4,7 @@ header {
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    /* border: 1px solid red; */
 }
 
 .header__bars {
@@ -14,6 +15,10 @@ header {
 }
 .header__menu {
     display: none;
+}
+
+.hr {
+    border: 1px solid var(--clr-slate400);
 }
 
 
