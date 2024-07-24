@@ -1,0 +1,22 @@
+.contact {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.contact__title {
+    font-size: var(--size-xl);
+}
+
+.contact__subtitle {
+    font-size: var(--size-sm);
+    color: var(--clr-slate400);
+}
+
+.contact__btn {
+    /* width; */
+    font-size: var(--size-xs);
+}

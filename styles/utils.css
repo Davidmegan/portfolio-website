@@ -41,6 +41,8 @@
     border-radius: 6px;
     transition: transform 0.3s ease;
     text-decoration: none;
+    width: 6rem;
+    text-align: center;
 }
 
 .btn:hover{
@@ -87,9 +89,9 @@
     .container{
         max-width: 1024px;
     }
-    /* .section{
-        margin-top: 0.5em;
-    } */
+    .section{
+        margin-top: 1em;
+    }
 }
 
 /* xl - 1280px */

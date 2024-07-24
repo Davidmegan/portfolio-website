@@ -3,7 +3,7 @@ header {
     justify-content: end;
     align-items: center;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
     /* border: 1px solid red; */
 }
 
@@ -50,6 +50,7 @@ header {
         color:var(--clr-slate400);
         font-size: var(--size-xs);
         transition: color 0.3s;
+        text-decoration: none;
     }
     
     .header__link:hover {

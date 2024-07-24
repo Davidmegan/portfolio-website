@@ -1,0 +1,113 @@
+.projects {
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    /* text-align: center; */
+}
+
+.projects__heading {
+    font-size: var(--size-2xl);
+}
+
+.projects__intro {
+    margin: 1em 0;
+    font-size: var(--size-sm);
+    color: var(--clr-slate400);
+}
+
+.project__title {
+    color: var(--clr-slate200);
+    font-size: var(--size-base);
+}
+
+.project__desc {
+    color: var(--clr-slate400);
+    font-size: var(--size-sm);
+    text-align: center;
+}
+
+.project__img {
+    width: 15rem;
+    height: 12rem;
+    /* margin: auto; */
+}
+
+.projects__collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.project__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.project__card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: 	rgba(14, 165, 233, 0.2); /* Blue color with transparency */
+    transition: background-color 0.5s ease; /* Smooth transition */
+    z-index: 1; /* Ensure the overlay is above the content */
+}
+
+.project__card {
+    position: relative;
+    z-index: 2; /* Ensure the content is above the overlay */
+}
+
+.project__card:hover::before {
+    background-color: rgba(0, 0, 255, 0); /* Make the overlay transparent */
+    z-index: -1;
+}
+
+.project__view {
+    font-size: var(--size-xs);
+    display: block;
+    /* width: 4rem; */
+}
+
+/* xs - 475px */
+
+/* @media (min-width: 475px) {
+    .
+} */
+
+/* sm - 640px */
+
+/* @media (min-width: 640px) {
+    
+} */
+
+/* md - 768px */
+
+/* @media (min-width: 768px) {
+    
+} */
+
+/* lg - 1024px */
+
+/* @media (min-width: 1024px) {
+    
+} */
+
+/* xl - 1280px */
+
+/* @media (min-width: 1280px) {
+    
+} */
+
+/* 2xl - 1536px */
+
+/* @media (min-width: 1536px) {
+    
+} */

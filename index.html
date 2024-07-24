@@ -10,26 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- <article class='container section'>
-      <h1>DAVID MEGAN C</h1>
-      <button class="btn"> resume </button>
-      <p>Lorem ipsum dolor <strong>sit amet</strong> consectetur adipisicing elit. Officia, minus! <a>Voluptates</a> pariatur minima consequatur nisi id dolor nam totam molestias iusto nobis delectus alias enim est, a corrupti velit. Ab.</p>
-      <script type="module" src="./src/main.js"></script>
-    </article> -->
     <header class="container section">
       <nav>
         <ul class="header__menu">
-          <li class="header__link" href="about">about</li>
-          <li class="header__link" href="featured">projects</li>
-          <li class="header__link" href="contact">contact</li>
+          <li><a class="header__link" href="#about">about</a></li>
+          <li><a class="header__link" href="#projects">projects</a></li>
+          <li><a class="header__link" href="#contact">contact</a></li>
           <li class="header__line"></li>
-          <li>
+          <!-- <li>
             <button class="header__sun">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
               </svg>
             </button>
-          </li>
+          </li> -->
           <li>
             <a class="header__resume btn" href="#">resume</a>
           </li>
@@ -43,25 +37,75 @@
     </header>
     <!-- <hr class="container hr" > -->
     <main>
-      <section class="split container">
+      <section id="about" class="split container">
         <div class="about container order">
           <img class="about__img" src="/miles.jpg" alt="profile picture">
         </div>
         <div class="about container">
           <h2 class="about__greet">hello world!</h2>
           <h1 class="about__name">I'm DAVID MEGAN</h1>
-          <p class="about__intro">Currenlty pursuing my <strong> 3rd year</strong> of B.Tech in <strong>Information Technology</strong>.<br> My areas of interest include</p>
+          <p class="about__intro">Currenlty pursuing my <strong> 3rd year</strong> of B.Tech in <strong>Information Technology</strong>.<br> My areas of interest include: </p>
           <ul class="about__skills">
             <li>web development</li>
             <li>competitive programming</li>
           </ul>
-          <p class="about__intro">In the world of <strong>hobbies</strong>, time spent is never wasted; <br> it's invested in joy and creativity</p>
+          <p class="about__intro">In the world of <strong>hobbies</strong>, time spent is never wasted; <br> it's invested in joy and creativity...</p>
           <ul class="about__hobbies">
             <li>Badminton</li>
             <li>Playing musical instruments</li>
             <li>Cubing</li>
           </ul>
         </div>
+      </section>
+      <section id="projects" class="projects container">
+        <h3 class="projects__heading">Projects</h3>
+        <p class="projects__intro">These are the <strong> projects</strong> I have worked on. <br>Do check them out on <a href="https://github.com/Davidmegan" target="_blank"> github</a>. </p>
+        <div class="projects__collection">
+
+          <div class="project__card">
+            <img class="project__img" src="/todo.png" alt="todo image">
+            <h4 class="project__title">Todo App</h4>
+            <p class="project__desc">This is a simple Todo app built using <strong>flutter</strong> with <strong>ISAR</strong> database.</p>
+            <a class="btn project__view" href="https://github.com/Davidmegan/PRODIGY_AD_02" target="_blank">view</a>
+          </div>
+          <div class="project__card">
+            <img class="project__img" src="/countdown.jpg" alt="todo image">
+            <h4 class="project__title">Countdown website</h4>
+            <p class="project__desc">A countdown website to new year using <strong>JS</strong>.</p>
+            <a class="btn project__view" href="https://github.com/Davidmegan/Countdown" target="_blank">view</a>
+          </div>
+          <div class="project__card">
+            <img class="project__img" src="/tic-tac-toe.png" alt="todo image">
+            <h4 class="project__title">TIC-TAC-TOE</h4>
+            <p class="project__desc">A two player tic-tac-toe game using <strong>python</strong>.</p>
+            <a class="btn project__view" href="https://github.com/Davidmegan/TIC-TAC-TOE" target="_blank">view</a>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="container contact">
+        <h3 class="contact__title">Contact</h3>
+        <p class="contact__subtitle">Feel free to contact me</p>
+        <a class="btn contact__btn" href="mailto:cdavidmegan@gmail.com" target="_blank">Reach out</a>
+      </section>
+      <section class="container profile">
+        <h3>My Profiles</h3>
+        <ul class="profile__list">
+          <a id="icon" href="https://www.linkedin.com/in/david-megan-c-83a741257/" target="_blank">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" viewBox="0 0 24 24"><path fill="var(--clr-slate400)" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg>
+            </li>
+          </a>
+          <a id="icon" href="https://github.com/Davidmegan" target="_blank">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" viewBox="0 0 24 24"><path fill="var(--clr-slate400)" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
+            </li>
+          </a>
+          <a id="icon" href="https://leetcode.com/u/David_Megan_C/" target="_blank">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" viewBox="0 0 24 24"><path fill="var(--clr-slate400)" d="M13.483 0a1.37 1.37 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.3 5.3 0 0 0-1.209 2.104a5 5 0 0 0-.125.513a5.5 5.5 0 0 0 .062 2.362a6 6 0 0 0 .349 1.017a5.9 5.9 0 0 0 1.271 1.818l4.277 4.193l.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.38 1.38 0 0 0-1.951-.003l-2.396 2.392a3.02 3.02 0 0 1-4.205.038l-.02-.019l-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.7 2.7 0 0 1 .066-.523a2.55 2.55 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0m-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382a1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382a1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+            </li>
+          </a>
+        </ul>
       </section>
     </main>
     <footer></footer>

@@ -1,0 +1,28 @@
+.profile__list {
+    display: flex;
+    gap: 2em;
+    /* text-decoration: none; */
+    list-style: none;
+    /* margin: auto; */
+    /* width: 100%; */
+    position: relative;
+    justify-content: center;
+    margin-top: 1em;
+    /* border: 1px solid red; */
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 10em;
+    margin-top: 3em;
+}
+
+#icon {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    /* border: 1px solid red;  */
+}
+
+#icon:hover {
+    transform: scale(1.1);
+}
