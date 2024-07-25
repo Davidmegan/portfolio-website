@@ -22,23 +22,23 @@
 
 .about__name {
     color: var(--clr-light);
-    font-size: var(--size-3xl);
+    font-size: var(--size-2xl);
     /* text-transform: uppercase; */
 }
 
 .about__intro {
     color: var(--clr-slate400);
-    font-size: var(--size-sm);
+    font-size: var(--size-xs);
 }
 
 .about__skills {
     color: var(--clr-emarald400);
-    font-size: var(--size-base);
+    font-size: var(--size-sm);
 }
 
 .about__hobbies {
     color: var(--clr-emarald400);
-    font-size: var(--size-sm);
+    font-size: var(--size-xs);
 }
 
 /* xs - 475px */
@@ -68,6 +68,19 @@
     }
     .order {
         order: 1;
+    }
+    .about__name {
+        font-size: var(--size-3xl);
+        /* text-transform: uppercase; */
+    }
+    .about__intro {
+        font-size: var(--size-sm);
+    }
+    .about__skills {
+        font-size: var(--size-base);
+    }
+    .about__hobbies {
+        font-size: var(--size-sm);
     }
 }
 
