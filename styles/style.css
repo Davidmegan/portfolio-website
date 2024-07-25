@@ -62,3 +62,16 @@ a{
 strong {
     color: var(--clr-indigo600);
 }
+
+body::-webkit-scrollbar {
+    width: 0.25em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-red600);
+    outline: 1px solid var(--clr-red600);
+  }

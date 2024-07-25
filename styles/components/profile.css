@@ -26,3 +26,7 @@
 #icon:hover {
     transform: scale(1.1);
 }
+
+#icon:hover path {
+    fill: var(--clr-emarald400);
+}
