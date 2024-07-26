@@ -6,12 +6,19 @@
     gap: 1rem;
     /* padding-top: 0.5rem; */
     /* border: 1px solid red; */
+    text-align: center;
 }
 
+.about ul {
+    /* list-style: none; */
+    text-align: justify;
+    margin-top: -0.75em;
+}
 
 .about__img {
     border-radius: 50%;
     width: 10rem;
+    margin-bottom: 1em;
     /* height: 12rem; */
 }
 
