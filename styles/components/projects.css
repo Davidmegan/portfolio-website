@@ -29,6 +29,7 @@
 .project__img {
     width: 15rem;
     height: 12rem;
+    border-radius: 1em;
     /* margin: auto; */
 }
 
@@ -66,8 +67,9 @@
 }
 
 .project__card:hover::before {
-    background-color: rgba(0, 0, 255, 0); /* Make the overlay transparent */
-    z-index: -1;
+    /* background-color: rgba(0, 0, 255, 0); Make the overlay transparent */
+    /* z-index: -1; */
+    display: none;
 }
 
 .project__view {

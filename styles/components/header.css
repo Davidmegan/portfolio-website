@@ -53,7 +53,7 @@ header {
     .header__link {
         color:var(--clr-slate400);
         font-size: var(--size-xs);
-        transition: color 0.3s;
+        transition: color 0.15s;
         text-decoration: none;
     }
     
