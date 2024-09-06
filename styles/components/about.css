@@ -25,7 +25,32 @@
 .about__greet {
     color: var(--clr-red400);
     font-size: var(--size-xl);
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-size: 2rem; */
+    /* white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.1em solid orange;
+    width: 0;  
+    animation: typing 3.5s steps(12, end), blink-caret 0.75s step-end infinite; */
 }
+
+/* @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 12.5ch;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+} */
 
 .about__name {
     color: var(--clr-light);

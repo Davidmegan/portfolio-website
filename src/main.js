@@ -9,6 +9,7 @@ import '../styles/components/mobile-nav.css'
 import '../styles/utils.css'
 
 import './utils/mobile-nav'
+import './utils/projects'
 import mobileNav from './utils/mobile-nav'
 
 mobileNav();
