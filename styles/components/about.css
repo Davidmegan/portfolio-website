@@ -22,6 +22,12 @@
     /* height: 12rem; */
 }
 
+.about__name {
+    color: var(--clr-light);
+    font-size: var(--size-2xl);
+    /* text-transform: uppercase; */
+}
+
 .about__greet {
     color: var(--clr-red400);
     font-size: var(--size-xl);
@@ -51,12 +57,6 @@
         border-color: orange;
     }
 } */
-
-.about__name {
-    color: var(--clr-light);
-    font-size: var(--size-2xl);
-    /* text-transform: uppercase; */
-}
 
 .about__intro {
     color: var(--clr-slate400);
